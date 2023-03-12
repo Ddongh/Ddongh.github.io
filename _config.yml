@@ -157,8 +157,6 @@ include:
   - .htaccess
   - _pages
 exclude:
-  - node_modules
-  - dev-youtubesite
   - "*.sublime-project"
   - "*.sublime-workspace"
   - vendor
