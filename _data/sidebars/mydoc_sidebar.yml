@@ -41,7 +41,6 @@ entries:
           url: /tag_navigation.html
           output: web    
       
-      subfolders:
       - title: Javascript
         output: web
         subfolderitems:
