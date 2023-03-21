@@ -20,16 +20,16 @@ entries:
       type: frontmatter
       
       
-  - title: Tag archives
+  - title: Coding Test
     output: web
     folderitems:
 
-    - title: Tag archives overview
+    - title: Coding Test Preview
       url: /mydoc_tag_archives_overview.html
       output: web
 
       subfolders:
-      - title: Tag archive pages
+      - title: Python
         output: web
         subfolderitems:
 
@@ -41,6 +41,18 @@ entries:
           url: /tag_navigation.html
           output: web    
       
+      subfolders:
+      - title: Javascript
+        output: web
+        subfolderitems:
+
+        - title: Formatting pages
+          url: /tag_formatting.html
+          output: web
+
+        - title: Navigation pages
+          url: /tag_navigation.html
+          output: web    
       
       
       
