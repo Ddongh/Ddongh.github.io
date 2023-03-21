@@ -45,8 +45,8 @@ entries:
         output: web
         subfolderitems:
 
-        - title: Formatting pages
-          url: /tag_formatting.html
+        - title: Programmers_lv00_옹알이(1)
+          url: /codingTest/python/옹알이(1).html
           output: web
 
         - title: Navigation pages
