@@ -39,6 +39,10 @@ entries:
 
         - title: 다음에 올 숫자_programmers_Lv0
           url: /programmers_Lv00_002.html
+          output: web 
+
+        - title: 연속된 수의 합_programmers_Lv0
+          url: /programmers_Lv00_003.html
           output: web    
       
       - title: Javascript

@@ -22,7 +22,7 @@ folder: /codingTest/python/lv0
 
 #### 입출력 예 <br>
   
-babbling|result
+common|result
 :---|:---:
 [1, 2, 3, 4]|5
 [2, 4, 8]|16
