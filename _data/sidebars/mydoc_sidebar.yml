@@ -37,8 +37,8 @@ entries:
           url: /programmers_Lv00_001.html
           output: web
 
-        - title: Navigation pages
-          url: /tag_navigation.html
+        - title: 다음에 올 숫자_programmers_Lv0
+          url: /programmers_Lv00_002.html
           output: web    
       
       - title: Javascript

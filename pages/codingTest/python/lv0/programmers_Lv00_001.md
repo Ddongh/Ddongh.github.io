@@ -1,5 +1,5 @@
 ---
-title: "옹알이(1)_programmers_Lv00"
+title: "옹알이(1)_programmers_Lv0"
 tagName: CodingTest
 search: exclude
 permalink: programmers_Lv00_001.html
