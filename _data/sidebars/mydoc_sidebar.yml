@@ -68,6 +68,30 @@ entries:
         - title: 세균 증식_programmers_Lv0
           url: /programmers_Lv00_009.html
           output: web  
+
+        - title: 제곱수 판별하기_programmers_Lv0
+          url: /programmers_Lv00_010.html
+          output: web  
+
+        - title: 문자열안에 문자열_programmers_Lv0
+          url: /programmers_Lv00_011.html
+          output: web  
+
+        - title: OX퀴즈_programmers_Lv0
+          url: /programmers_Lv00_012.html
+          output: web  
+
+        - title: 자릿수 더하기_programmers_Lv0
+          url: /programmers_Lv00_013.html
+          output: web  
+
+        - title: n의 배수 고르기_programmers_Lv0
+          url: /programmers_Lv00_014.html
+          output: web  
+
+        - title: 숫자 찾기_programmers_Lv0
+          url: /programmers_Lv00_015.html
+          output: web  
       
       - title: Javascript
         output: web, pdf
