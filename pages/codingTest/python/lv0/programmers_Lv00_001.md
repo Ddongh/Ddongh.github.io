@@ -1,7 +1,7 @@
 ---
 title: "옹알이(1)_programmers_Lv0"
 tagName: CodingTest
-search: exclude
+search: include
 permalink: programmers_Lv00_001.html
 sidebar: mydoc_sidebar
 folder: /codingTest/python/lv0
@@ -23,7 +23,7 @@ folder: /codingTest/python/lv0
 #### 입출력 예 <br>
   
 babbling|result
-:---|:---:
+---|---
 ["aya", "yee", "u", "maa", "wyeoo"]|1
 ["ayaye", "uuuma", "ye", "yemawoo", "ayaa"]|3
   

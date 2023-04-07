@@ -1,7 +1,7 @@
 ---
 title: "연속된 수의 합_programmers_Lv0"
 tagName: CodingTest
-search: exclude
+search: include
 permalink: programmers_Lv00_003.html
 sidebar: mydoc_sidebar
 folder: /codingTest/python/lv0

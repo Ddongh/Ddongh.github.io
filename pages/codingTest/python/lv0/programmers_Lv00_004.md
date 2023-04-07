@@ -1,7 +1,7 @@
 ---
 title: "종이 자르기_programmers_Lv0"
 tagName: CodingTest
-search: exclude
+search: include
 permalink: programmers_Lv00_004.html
 sidebar: mydoc_sidebar
 folder: /codingTest/python/lv0

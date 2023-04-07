@@ -48,6 +48,26 @@ entries:
         - title: 종이 자르기_programmers_Lv0
           url: /programmers_Lv00_004.html
           output: web  
+
+        - title: 문자열 밀기_programmers_Lv0
+          url: /programmers_Lv00_005.html
+          output: web  
+
+        - title: 잘라서 배열로 저장하기_programmers_Lv0
+          url: /programmers_Lv00_006.html
+          output: web  
+
+        - title: 7의 개수_programmers_Lv0
+          url: /programmers_Lv00_007.html
+          output: web  
+
+        - title: 문자열 정렬하기 (2)_programmers_Lv0
+          url: /programmers_Lv00_008.html
+          output: web  
+
+        - title: 세균 증식_programmers_Lv0
+          url: /programmers_Lv00_009.html
+          output: web  
       
       - title: Javascript
         output: web, pdf
