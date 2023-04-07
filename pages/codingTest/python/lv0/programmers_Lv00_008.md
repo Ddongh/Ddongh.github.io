@@ -1,8 +1,8 @@
 ---
-title: "세균 증식_programmers_Lv0"
+title: "문자열 정렬하기 (2)_programmers_Lv0"
 tagName: CodingTest
 search: include
-permalink: programmers_Lv00_009.html
+permalink: programmers_Lv00_008.html
 sidebar: mydoc_sidebar
 folder: /codingTest/python/lv0
 ---
@@ -10,43 +10,52 @@ folder: /codingTest/python/lv0
 
 #### 문제 설명 <br>
 
-어떤 세균은 1시간에 두배만큼 증식한다고 합니다. 처음 세균의 마리수 n과 경과한 시간 t가 매개변수로 주어질 때 t시간 후 세균의 수를 return하도록 solution 함수를 완성해주세요.
+영어 대소문자로 이루어진 문자열 my_string이 매개변수로 주어질 때, my_string을 모두 소문자로 바꾸고 알파벳 순서대로 정렬한 문자열을 return 하도록 solution 함수를 완성해보세요.
 
 #### 제한사항 <br>
 
-- 1 ≤ n ≤ 10
-- 1 ≤ t ≤ 15
+- 0 < my_string 길이 < 100
 
 #### 입출력 예 <br>
   
-n|t|result
+my_string|result
 ---|---
-2|10|2048
-7|15|229,376
+"Bcad"|"abcd"
+"heLLo"|"ehllo"
+"Python"|"hnopty"
 
 #### 입출력 예 설명 <br>
 
 입출력 예 #1
-- 처음엔 2마리, 1시간 후엔 4마리, 2시간 후엔 8마리, ..., 10시간 후엔 2048마리가 됩니다. 따라서 2048을 return합니다.
+- "Bcad"를 모두 소문자로 바꾸면 "bcad"이고 이를 알파벳 순으로 정렬하면 "abcd"입니다.
 
 입출력 예 #2
-- 처음엔 7마리, 1시간 후엔 14마리, 2시간 후엔 28마리, ..., 15시간 후엔 229376마리가 됩니다. 따라서 229,376을 return합니다.
+- "heLLo"를 모두 소문자로 바꾸면 "hello"이고 이를 알파벳 순으로 정렬하면 "ehllo"입니다.
+
+입출력 예 #3
+- "Python"를 모두 소문자로 바꾸면 "python"이고 이를 알파벳 순으로 정렬하면 "hnopty"입니다.
 
 #### 접근방법 <br>
 
-1. 처음 n마리에 시간당 증가량 2**t를 곱해준다.
+1. 소문자 변환
+2. 알파벳 순으로 정렬
 
 ### 작성 코드 <br>
 
 ```python
-def solution(n, t):
-    answer = n * (2**t) # 초기값 n에 시간당 증가량 2**t를 곱한다.
+def solution(st):
+    answer = ''
+    st = st.lower() # 소문자 변환
+    st = list(st) # 리스트 변환
+    st = sorted(st) # 알파벳 순으로 정렬
+    answer = "".join(st) # 문자열 변환
+    
     return answer
 ```
 
 #### 제출 결과
 
-![제출 결과](\images\programmers_Lv00_009.png)
+![제출 결과](\images\programmers_Lv00_008.png)
 
 
 
