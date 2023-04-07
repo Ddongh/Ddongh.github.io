@@ -92,6 +92,14 @@ entries:
         - title: 숫자 찾기_programmers_Lv0
           url: /programmers_Lv00_015.html
           output: web  
+
+        - title: 숫자 찾기_programmers_Lv0
+          url: /programmers_Lv00_015.html
+          output: web  
+
+        - title: 배열의 유사도_programmers_Lv0
+          url: /programmers_Lv00_016.html
+          output: web  
       
       - title: Javascript
         output: web, pdf
