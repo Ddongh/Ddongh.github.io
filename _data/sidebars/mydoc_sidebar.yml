@@ -100,6 +100,104 @@ entries:
         - title: 배열의 유사도_programmers_Lv0
           url: /programmers_Lv00_016.html
           output: web  
+
+        - title: 문자열 계산하기_programmers_Lv0
+          url: /programmers_Lv00_017.html
+          output: web  
+
+        - title: 가장 큰 수 찾기_programmers_Lv0
+          url: /programmers_Lv00_018.html
+          output: web  
+
+        - title: 편지_programmers_Lv0
+          url: /programmers_Lv00_019.html
+          output: web  
+
+        - title: 약수 구하기_programmers_Lv0
+          url: /programmers_Lv00_020.html
+          output: web  
+
+        - title: 한 번만 등장한 문자_programmers_Lv0 
+          url: /programmers_Lv00_021.html 
+          output: web  
+
+        - title: 인덱스 바꾸기_programmers_Lv0 
+          url: /programmers_Lv00_022.html 
+          output: web  
+
+        - title: 영어가 싫어요_programmers_Lv0 
+          url: /programmers_Lv00_023.html 
+          output: web  
+
+        - title: 대문자와 소문자_programmers_Lv0 
+          url: /programmers_Lv00_024.html 
+          output: web  
+
+        - title: 암호 해독_programmers_Lv0 
+          url: /programmers_Lv00_025.html 
+          output: web  
+
+        - title: 369게임_programmers_Lv0 
+          url: /programmers_Lv00_026.html 
+          output: web  
+
+        - title: 가까운 수_programmers_Lv0 
+          url: /programmers_Lv00_027.html 
+          output: web  
+
+        - title: 삼각형의 완성조건 (1)_programmers_Lv0 
+          url: /programmers_Lv00_028.html 
+          output: web  
+
+        - title: 중복된 문자 제거_programmers_Lv0 
+          url: /programmers_Lv00_029.html 
+          output: web  
+
+        - title: k의 개수_programmers_Lv0 
+          url: /programmers_Lv00_030.html 
+          output: web  
+
+        - title: A로 B 만들기_programmers_Lv0 
+          url: /programmers_Lv00_031.html 
+          output: web  
+
+        - title: 이진수 더하기_programmers_Lv0 
+          url: /programmers_Lv00_032.html 
+          output: web  
+
+        - title: 치킨 쿠폰_programmers_Lv0 
+          url: /programmers_Lv00_033.html 
+          output: web  
+
+        - title: 로그인 성공?_programmers_Lv0 
+          url: /programmers_Lv00_034.html 
+          output: web  
+
+        - title: 등수 매기기_programmers_Lv0 
+          url: /programmers_Lv00_035.html 
+          output: web  
+
+        - title: 특이한 정렬_programmers_Lv0 
+          url: /programmers_Lv00_036.html 
+          output: web  
+
+        - title: 유한소수 판별하기_programmers_Lv0 
+          url: /programmers_Lv00_037.html 
+          output: web  
+
+        - title: 겹치는 선분의 길이_programmers_Lv0 
+          url: /programmers_Lv00_038.html 
+          output: web  
+
+        - title: 평행_programmers_Lv0 
+          url: /programmers_Lv00_039.html 
+          output: web  
+
+        - title: 저주의 숫자 3_programmers_Lv0 
+          url: /programmers_Lv00_040.html 
+          output: web  
+
+
       
       - title: Javascript
         output: web, pdf
