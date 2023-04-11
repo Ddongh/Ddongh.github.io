@@ -38,10 +38,11 @@ my_string|	result
 
 ### 접근방법 <br>
 
-1. my_string의 첫번째부터 반복문을 돌면서 알파벳이면 res에 "0" 을 append
-    - 연속된 숫자가 아닌 경우 각 숫자를 구분하기 위함
-2. 알파벳이 아니면(숫자면) res의 마지막 원소에 더해준다.
-    - 자연수가 연속되어 있을 경우 각가 한 자릿 수가 아닌 하나의 숫자로 만들기 위함 
+1. my_string의 원소에 대해 
+    - 알파벳이면 "0"을 res에 append
+        - 숫자가 연속되지 않을 경우 구분하기 위함
+    - 숫자면 res의 마지막 원소에 합쳐주기(문자열)
+        - 숫자가 연속될 경우 한 자리수를 여러번 더하는 것이 아닌 하나의 숫자로 만들기 위함
 
 ### 작성 코드 <br>
 
@@ -52,12 +53,12 @@ def solution(m):
     
     for i in range(len(m)):
         if(m[i].isalpha()): # 알파벳이면
-            res.append("0") # "0"을 append
+            res.append("0") # 각 숫자를 구분하기 위해 "0"을 append
         else: # 숫자면
-            res[-1] = res[-1] + m[i] # res의 가장 마지막 원소에 숫자를 더해준다.(문자열)
+            res[-1] = res[-1] + m[i] # res의 마지막 원소에 합쳐준다.
         
     for i in res:
-        answer += int(i) # 정수변환 후 더하기
+        answer += int(i) # 정수로 변환 후 더해주기
     return answer
 ```
 
