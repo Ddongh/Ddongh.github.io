@@ -22,6 +22,7 @@ folder: /codingTest/python/lv0
 #### 입출력 예 <br>
   
 numlist|	n|	result
+---|---|---
 [1, 2, 3, 4, 5, 6]|	4|	[4, 5, 3, 6, 2, 1]
 [10000,20,36,47,40,6,10,7000]|	30|	[36, 40, 20, 47, 10, 6, 7000, 10000]
 
@@ -59,7 +60,7 @@ def solution(score):
 
 #### 제출 결과
 
-![제출 결과](\images\programmers_Lv00_035.png)
+![제출 결과](\images\programmers_Lv00_036.png)
 
 
 
