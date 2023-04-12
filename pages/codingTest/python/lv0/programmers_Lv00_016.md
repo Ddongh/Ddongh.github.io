@@ -1,6 +1,6 @@
 ---
 title: "배열의 유사도_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_016.html
 sidebar: mydoc_sidebar

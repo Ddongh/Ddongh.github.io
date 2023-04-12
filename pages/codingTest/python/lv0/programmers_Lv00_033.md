@@ -1,6 +1,6 @@
 ---
 title: "치킨 쿠폰_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_033.html
 sidebar: mydoc_sidebar

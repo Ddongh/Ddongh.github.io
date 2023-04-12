@@ -1,6 +1,6 @@
 ---
 title: "옹알이(1)_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_001.html
 sidebar: mydoc_sidebar

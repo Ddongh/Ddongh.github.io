@@ -1,6 +1,6 @@
 ---
 title: "편지_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_019.html
 sidebar: mydoc_sidebar

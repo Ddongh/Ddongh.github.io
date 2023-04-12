@@ -1,6 +1,6 @@
 ---
 title: "가장 큰 수 찾기_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_018.html
 sidebar: mydoc_sidebar

@@ -1,6 +1,6 @@
 ---
 title: "세균 증식_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_009.html
 sidebar: mydoc_sidebar

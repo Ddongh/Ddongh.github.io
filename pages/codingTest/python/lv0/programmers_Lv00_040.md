@@ -1,6 +1,6 @@
 ---
 title: "저주의 숫자 3_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_040.html
 sidebar: mydoc_sidebar

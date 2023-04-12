@@ -1,6 +1,6 @@
 ---
 title: "인덱스 바꾸기_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_022.html
 sidebar: mydoc_sidebar

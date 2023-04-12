@@ -1,6 +1,6 @@
 ---
 title: "연속된 수의 합_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_003.html
 sidebar: mydoc_sidebar

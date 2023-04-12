@@ -1,6 +1,6 @@
 ---
 title: "겹치는 선분의 길이_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_038.html
 sidebar: mydoc_sidebar

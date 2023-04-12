@@ -1,6 +1,6 @@
 ---
 title: "문자열 정렬하기 (2)_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_008.html
 sidebar: mydoc_sidebar

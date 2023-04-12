@@ -1,6 +1,6 @@
 ---
 title: "문자열안에 문자열_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_011.html
 sidebar: mydoc_sidebar

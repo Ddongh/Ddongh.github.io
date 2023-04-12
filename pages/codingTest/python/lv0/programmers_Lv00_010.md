@@ -1,6 +1,6 @@
 ---
 title: "제곱수 판별하기_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_010.html
 sidebar: mydoc_sidebar

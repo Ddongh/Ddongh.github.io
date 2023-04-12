@@ -1,6 +1,6 @@
 ---
 title: "로그인 성공?_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_034.html
 sidebar: mydoc_sidebar

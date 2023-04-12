@@ -1,6 +1,6 @@
 ---
 title: "문자열 밀기_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_005.html
 sidebar: mydoc_sidebar

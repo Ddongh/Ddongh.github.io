@@ -1,6 +1,6 @@
 ---
 title: "n의 배수 고르기_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_014.html
 sidebar: mydoc_sidebar

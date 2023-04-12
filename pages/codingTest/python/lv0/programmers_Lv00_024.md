@@ -1,6 +1,6 @@
 ---
 title: "대문자와 소문자_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_024.html
 sidebar: mydoc_sidebar

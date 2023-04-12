@@ -1,6 +1,6 @@
 ---
 title: "7의 개수_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_007.html
 sidebar: mydoc_sidebar

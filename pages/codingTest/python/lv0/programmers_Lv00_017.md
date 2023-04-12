@@ -1,6 +1,6 @@
 ---
 title: "문자열 계산하기_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_017.html
 sidebar: mydoc_sidebar

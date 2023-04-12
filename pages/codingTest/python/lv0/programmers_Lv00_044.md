@@ -1,6 +1,6 @@
 ---
 title: "숨어있는 숫자의 덧셈 (2)_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_044.html
 sidebar: mydoc_sidebar

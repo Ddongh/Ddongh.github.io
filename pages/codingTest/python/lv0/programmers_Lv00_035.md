@@ -1,6 +1,6 @@
 ---
 title: "등수 매기기_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_035.html
 sidebar: mydoc_sidebar

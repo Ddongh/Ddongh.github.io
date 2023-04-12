@@ -1,6 +1,6 @@
 ---
 title: "가까운 수_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_027.html
 sidebar: mydoc_sidebar

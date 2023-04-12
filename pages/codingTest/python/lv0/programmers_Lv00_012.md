@@ -1,6 +1,6 @@
 ---
 title: "OX퀴즈_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_012.html
 sidebar: mydoc_sidebar

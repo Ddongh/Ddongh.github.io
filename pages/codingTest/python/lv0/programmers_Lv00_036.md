@@ -1,6 +1,6 @@
 ---
 title: "특이한 정렬_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_036.html
 sidebar: mydoc_sidebar

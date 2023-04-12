@@ -1,6 +1,6 @@
 ---
 title: "중복된 문자 제거_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_029.html
 sidebar: mydoc_sidebar

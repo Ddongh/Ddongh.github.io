@@ -1,6 +1,6 @@
 ---
 title: "이진수 더하기_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_032.html
 sidebar: mydoc_sidebar

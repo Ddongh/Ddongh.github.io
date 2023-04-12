@@ -1,6 +1,6 @@
 ---
 title: "암호 해독_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_025.html
 sidebar: mydoc_sidebar

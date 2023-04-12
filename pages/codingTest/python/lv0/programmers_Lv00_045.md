@@ -1,6 +1,6 @@
 ---
 title: "다항식 더하기_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_045.html
 sidebar: mydoc_sidebar
@@ -47,7 +47,7 @@ polynomial|	result
 ### 접근방법 <br>
 
 1. 문자열을 "+"를 기준으로 split
-2. 1차항의 계수와 상수항을 각각 더한 값으 구한다.
+2. 1차항의 계수와 상수항을 각각 더한 값을 구한다.
 3. 형식에 맞춰서 return
 
 ### 작성 코드 <br>

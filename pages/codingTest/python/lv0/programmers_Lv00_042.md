@@ -1,6 +1,6 @@
 ---
 title: "삼각형의 완성조건 (2)_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_042.html
 sidebar: mydoc_sidebar

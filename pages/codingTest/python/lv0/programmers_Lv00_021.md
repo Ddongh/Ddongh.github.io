@@ -1,6 +1,6 @@
 ---
 title: "한 번만 등장한 문자_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_021.html
 sidebar: mydoc_sidebar

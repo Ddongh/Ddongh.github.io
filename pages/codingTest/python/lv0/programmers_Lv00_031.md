@@ -1,6 +1,6 @@
 ---
 title: "A로 B 만들기_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_031.html
 sidebar: mydoc_sidebar

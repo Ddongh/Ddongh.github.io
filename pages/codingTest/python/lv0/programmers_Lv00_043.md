@@ -1,6 +1,6 @@
 ---
 title: "안전지대_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_043.html
 sidebar: mydoc_sidebar

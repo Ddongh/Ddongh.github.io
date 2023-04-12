@@ -1,6 +1,6 @@
 ---
 title: "약수 구하기_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_020.html
 sidebar: mydoc_sidebar

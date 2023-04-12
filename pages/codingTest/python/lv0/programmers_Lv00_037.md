@@ -1,6 +1,6 @@
 ---
 title: "유한소수 판별하기_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_037.html
 sidebar: mydoc_sidebar

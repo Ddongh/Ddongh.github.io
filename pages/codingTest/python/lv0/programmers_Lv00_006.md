@@ -1,6 +1,6 @@
 ---
 title: "잘라서 배열로 저장하기_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_006.html
 sidebar: mydoc_sidebar

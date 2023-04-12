@@ -1,6 +1,6 @@
 ---
 title: "자릿수 더하기_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_013.html
 sidebar: mydoc_sidebar

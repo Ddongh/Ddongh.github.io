@@ -1,6 +1,6 @@
 ---
 title: "영어가 싫어요_programmers_Lv0"
-tagName: CodingTest
+tags: CodingTest
 search: include
 permalink: programmers_Lv00_023.html
 sidebar: mydoc_sidebar
