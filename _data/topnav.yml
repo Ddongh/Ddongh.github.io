@@ -5,6 +5,9 @@ topnav:
   items:
     - title: GitHub
       external_url: https://github.com/Ddongh
+
+    - title: Jekyll Doc Theme 6.0
+      external_url: https://idratherbewriting.com/documentation-theme-jekyll/
     # - title: News
     #   url: /news
 

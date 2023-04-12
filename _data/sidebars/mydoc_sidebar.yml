@@ -290,6 +290,88 @@ entries:
           url: /programmers_Lv00_060.html 
           output: web 
 
+        # - title: 2차원으로 만들기_programmers_Lv0 
+        #   url: /programmers_Lv00_061.html 
+        #   output: web 
+
+        # - title: 점의 위치 구하기_programmers_Lv0 
+        #   url: /programmers_Lv00_062.html 
+        #   output: web 
+
+        # - title: 구슬을 나누는 경우의 수_programmers_Lv0 
+        #   url: /programmers_Lv00_063.html 
+        #   output: web 
+
+        # - title: 가위 바위 보_programmers_Lv0 
+        #   url: /programmers_Lv00_064.html 
+        #   output: web 
+
+        # - title: 모스부호 (1)_programmers_Lv0 
+        #   url: /programmers_Lv00_065.html 
+        #   output: web 
+
+        # - title: 개미 군단_programmers_Lv0 
+        #   url: /programmers_Lv00_066.html 
+        #   output: web 
+
+        # - title: 순서쌍의 개수_programmers_Lv0 
+        #   url: /programmers_Lv00_067.html 
+        #   output: web 
+
+        # - title: 진료순서 정하기_programmers_Lv0 
+        #   url: /programmers_Lv00_068.html 
+        #   output: web 
+
+        # - title: 외계행성의 나이_programmers_Lv0 
+        #   url: /programmers_Lv00_069.html 
+        #   output: web 
+
+        # - title: 배열 자르기_programmers_Lv0 ########## 70
+        #   url: /programmers_Lv00_070.html 
+        #   output: web 
+
+        # - title: 짝수의 합_programmers_Lv0 
+        #   url: /programmers_Lv00_071.html 
+        #   output: web 
+
+        # - title: 양꼬치_programmers_Lv0 
+        #   url: /programmers_Lv00_072.html 
+        #   output: web 
+
+        # - title: 각도기_programmers_Lv0 
+        #   url: /programmers_Lv00_073.html 
+        #   output: web 
+
+        # - title: 특정 문자 제거하기_programmers_Lv0 
+        #   url: /programmers_Lv00_074.html 
+        #   output: web 
+
+        # - title: 문자 반복 출력하기_programmers_Lv0 
+        #   url: /programmers_Lv00_075.html 
+        #   output: web 
+
+        # - title: 짝수 홀수 개수_programmers_Lv0 
+        #   url: /programmers_Lv00_076.html 
+        #   output: web 
+
+        # - title: 직각삼각형 출력하기_programmers_Lv0 
+        #   url: /programmers_Lv00_077.html 
+        #   output: web 
+
+        # - title: 문자열 뒤집기_programmers_Lv0 
+        #   url: /programmers_Lv00_078.html 
+        #   output: web 
+
+        # - title: 배열 뒤집기_programmers_Lv0 
+        #   url: /programmers_Lv00_079.html 
+        #   output: web 
+
+        # - title: 나이 출력_programmers_Lv0  ########## 80
+        #   url: /programmers_Lv00_080.html 
+        #   output: web 
+
+
+
 
           
 
@@ -299,13 +381,13 @@ entries:
         output: web, pdf
         subfolderitems:
 
-        - title: Programmers_lv00_옹알이(1)
-          url: /python_test.html
-          output: web, pdf
+        # - title: Programmers_lv00_옹알이(1)
+        #   url: /python_test.html
+        #   output: web, pdf
 
-        - title: Navigation pages
-          url: /tag_navigation1.html
-          output: web, pdf    
+        # - title: Navigation pages
+        #   url: /tag_navigation1.html
+        #   output: web, pdf    
       
       
        
