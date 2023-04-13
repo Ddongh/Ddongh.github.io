@@ -19,6 +19,11 @@ entries:
       output: pdf
       type: frontmatter
 
+  - title: Main Page
+    url: /index.html
+    output: web, pdf
+    type: homepage
+
   - title: Software Engineering
     output: web
     folderitems:
