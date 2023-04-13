@@ -47,7 +47,7 @@ balls|	share|	result
 ### 작성 코드 <br>
 
 ```python
-ddef solution(balls, share):
+def solution(balls, share):
     def fac(n): # 팩토리얼 함수
         ret = 1
         for i in range(2, n+1):
