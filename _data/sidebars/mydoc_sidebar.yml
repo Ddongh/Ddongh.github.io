@@ -19,17 +19,24 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Main Page
-    url: /index.html
-    output: web, pdf
-    type: homepage
+  - title: 바로가기
+    output: web
+    folderitems:
+
+    - title: 메인 페이지
+      url: /index.html
+      output: web
+
+    - title: 프로그래머스
+      url: "https://school.programmers.co.kr/"
+      output: web
 
   - title: Software Engineering
     output: web
     folderitems:
 
     - title: 
-      url: 
+      url: "#"
       output: web
 
       subfolders:
@@ -46,9 +53,9 @@ entries:
     output: web
     folderitems:
 
-    - title: 코딩테스트 연습하러가기
-      url: https://programmers.co.kr/
-      output: web
+    # - title: 코딩테스트 연습하러가기
+    #   url: https://programmers.co.kr/
+    #   output: web
 
     - title: 
       url: "#"
@@ -472,81 +479,83 @@ entries:
           url: /programmers_Lv01_001.html 
           output: web 
 
-        # - title: 카드 뭉치_programmers_Lv1 
-        #   url: /programmers_Lv01_002.html 
-        #   output: web 
+        - title: 카드 뭉치_programmers_Lv1 
+          url: /programmers_Lv01_002.html 
+          output: web 
 
-        # - title: 둘만의 암호_programmers_Lv1 
-        #   url: /programmers_Lv01_003.html 
-        #   output: web 
+        - title: 둘만의 암호_programmers_Lv1 
+          url: /programmers_Lv01_003.html 
+          output: web 
 
-        # - title: 평균 일일 대여 요금 구하기_programmers_Lv1 
-        #   url: /programmers_Lv01_004.html 
-        #   output: web 
+        - title: 개인정보 수집 유효기간_programmers_Lv1 
+          url: /programmers_Lv01_004.html 
+          output: web 
 
-        # - title: 개인정보 수집 유효기간_programmers_Lv1 
-        #   url: /programmers_Lv01_005.html 
-        #   output: web 
+        - title: 크기가 작은 부분 문자열 _programmers_Lv1 
+          url: /programmers_Lv01_005.html 
+          output: web 
 
-        # - title: 크기가 작은 부분 문자열 _programmers_Lv1 
-        #   url: /programmers_Lv01_006.html 
-        #   output: web 
+        - title: 가장 가까운 같은 글자_programmers_Lv1 
+          url: /programmers_Lv01_006.html 
+          output: web 
 
-        # - title: 	조건에 맞는 도서 리스트 출력하기_programmers_Lv1 
-        #   url: /programmers_Lv01_007.html 
-        #   output: web 
+        - title: 문자열 나누기_programmers_Lv1 
+          url: /programmers_Lv01_007.html 
+          output: web 
 
-        # - title: 가장 가까운 같은 글자_programmers_Lv1 
-        #   url: /programmers_Lv01_008.html 
-        #   output: web 
+        - title: 명예의 전당 (1)_programmers_Lv1 
+          url: /programmers_Lv01_008.html 
+          output: web 
 
-        # - title: 문자열 나누기_programmers_Lv1 
-        #   url: /programmers_Lv01_009.html 
-        #   output: web 
+        - title: 기사단원의 무기_programmers_Lv1 
+          url: /programmers_Lv01_009.html 
+          output: web 
 
-        # - title: 명예의 전당 (1)_programmers_Lv1 
-        #   url: /programmers_Lv01_0010.html 
-        #   output: web 
+        - title: 과일 장수_programmers_Lv1 
+          url: /programmers_Lv01_010.html 
+          output: web 
 
-        # - title: 기사단원의 무기_programmers_Lv1 
-        #   url: /programmers_Lv01_011.html 
-        #   output: web 
+        - title: 푸드 파이트 대회_programmers_Lv1 
+          url: /programmers_Lv01_011.html 
+          output: web 
 
-        # - title: 과일 장수_programmers_Lv1 
-        #   url: /programmers_Lv01_012.html 
-        #   output: web 
+        - title: 햄버거 만들기_programmers_Lv1 
+          url: /programmers_Lv01_012.html 
+          output: web 
 
-        # - title: 푸드 파이트 대회_programmers_Lv1 
-        #   url: /programmers_Lv01_013.html 
-        #   output: web 
+        - title: 옹알이 (2)_programmers_Lv1 
+          url: /programmers_Lv01_013.html 
+          output: web 
 
-        # - title: 햄버거 만들기_programmers_Lv1 
-        #   url: /programmers_Lv01_014.html 
-        #   output: web 
+        - title: 콜라 문제_programmers_Lv1 
+          url: /programmers_Lv01_014.html 
+          output: web 
 
-        # - title: 옹알이 (2)_programmers_Lv1 
-        #   url: /programmers_Lv01_015.html 
-        #   output: web 
+        - title: 삼총사_programmers_Lv1 
+          url: /programmers_Lv01_015.html 
+          output: web 
 
-        # - title: 과일로 만든 아이스크림 고르기_programmers_Lv1 
-        #   url: /programmers_Lv01_016.html 
-        #   output: web 
+        - title: 숫자 짝꿍_programmers_Lv1 
+          url: /programmers_Lv01_016.html 
+          output: web 
 
-        # - title: 인기있는 아이스크림_programmers_Lv1 
-        #   url: /programmers_Lv01_017.html 
-        #   output: web 
+        - title: 성격 유형 검사하기_programmers_Lv1 
+          url: /programmers_Lv01_017.html 
+          output: web 
 
-        # - title: 콜라 문제_programmers_Lv1 
-        #   url: /programmers_Lv01_018.html 
-        #   output: web 
+        - title: 신고 결과 받기_programmers_Lv1 
+          url: /programmers_Lv01_018.html 
+          output: web 
 
-        # - title: 흉부외과 또는 일반외과 의사 목록 출력하기_programmers_Lv1 
-        #   url: /programmers_Lv01_019.html 
-        #   output: web 
+        - title: 나머지가 1이 되는 수 찾기_programmers_Lv1 
+          url: /programmers_Lv01_019.html 
+          output: web 
 
-        # - title: 12세 이하인 여자 환자 목록 출력하기_programmers_Lv1 
-        #   url: /programmers_Lv01_020.html 
-        #   output: web 
+        - title: 최소직사각형_programmers_Lv1 
+          url: /programmers_Lv01_020.html 
+          output: web 
+
+
 
 
 
