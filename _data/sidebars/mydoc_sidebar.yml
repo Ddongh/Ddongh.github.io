@@ -31,22 +31,22 @@ entries:
       url: "https://school.programmers.co.kr/"
       output: web
 
-  - title: Software Engineering
-    output: web
-    folderitems:
+  # - title: Software Engineering
+  #   output: web
+  #   folderitems:
 
-    - title: 
-      url: "#"
-      output: web
+  #   - title: 
+  #     url: "#"
+  #     output: web
 
-      subfolders:
-      - title: 소프트웨어공학이란
-        output: web
-        subfolderitems:
+  #     subfolders:
+  #     - title: 소프트웨어공학이란
+  #       output: web
+  #       subfolderitems:
 
-        - title: 1.1 소프트웨어
-          url: /softwareEngineering_01_01.html
-          output: web
+  #       - title: 1.1 소프트웨어
+  #         url: /softwareEngineering_01_01.html
+  #         output: web
   
   ############################################################ 코딩테스트
   - title: Coding Test
