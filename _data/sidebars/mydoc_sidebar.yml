@@ -555,6 +555,88 @@ entries:
           url: /programmers_Lv01_020.html 
           output: web 
 
+        - title: 없는 숫자 더하기_programmers_Lv1 
+          url: /programmers_Lv01_021.html 
+          output: web 
+
+        - title: 부족한 금액 계산하기_programmers_Lv1 
+          url: /programmers_Lv01_022.html 
+          output: web 
+
+        - title: 숫자 문자열과 영단어_programmers_Lv1 
+          url: /programmers_Lv01_023.html 
+          output: web 
+
+        - title: 약수의 개수와 덧셈_programmers_Lv1 
+          url: /programmers_Lv01_024.html 
+          output: web 
+
+        - title: 로또의 최고 순위와 최저 순위_programmers_Lv1 
+          url: /programmers_Lv01_025.html 
+          output: web 
+
+        - title: 음양 더하기_programmers_Lv1 
+          url: /programmers_Lv01_026.html 
+          output: web 
+
+        - title: 신규 아이디 추천_programmers_Lv1 
+          url: /programmers_Lv01_027.html 
+          output: web 
+
+        - title: 내적_programmers_Lv1 
+          url: /programmers_Lv01_028.html 
+          output: web 
+
+        - title: 3진법 뒤집기_programmers_Lv1 
+          url: /programmers_Lv01_029.html 
+          output: web 
+
+        - title: 두 개 뽑아서 더하기_programmers_Lv1 
+          url: /programmers_Lv01_030.html 
+          output: web 
+
+        - title: 키패드 누르기_programmers_Lv1 
+          url: /programmers_Lv01_031.html 
+          output: web 
+
+        - title: 크레인 인형뽑기 게임_programmers_Lv1 
+          url: /programmers_Lv01_032.html 
+          output: web 
+
+        - title: 실패율_programmers_Lv1 
+          url: /programmers_Lv01_033.html 
+          output: web 
+
+        - title: 체육복_programmers_Lv1 
+          url: /programmers_Lv01_034.html 
+          output: web 
+
+        - title: 모의고사_programmers_Lv1 
+          url: /programmers_Lv01_035.html 
+          output: web 
+
+        - title: K번째수_programmers_Lv1 
+          url: /programmers_Lv01_036.html 
+          output: web 
+
+        - title: 완주하지 못한 선수_programmers_Lv1 
+          url: /programmers_Lv01_037.html 
+          output: web 
+
+        - title: <1차> 다트 게임_programmers_Lv1 
+          url: /programmers_Lv01_038.html 
+          output: web 
+
+        - title: <1차> 비밀지도_programmers_Lv1 
+          url: /programmers_Lv01_039.html 
+          output: web 
+
+        - title: 예산_programmers_Lv1 
+          url: /programmers_Lv01_040.html 
+          output: web 
+
+
+
 
 
 
