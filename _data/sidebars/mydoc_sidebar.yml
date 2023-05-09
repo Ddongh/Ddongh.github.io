@@ -30,7 +30,15 @@ entries:
     - title: 프로그래머스
       url: "https://school.programmers.co.kr/"
       output: web
+  
+  - title: Javascript Study
+    output: web
+    folderitems:
 
+    - title: Javascript 기초문법
+      url: /javascript01.html
+      output: web
+  
   # - title: Software Engineering
   #   output: web
   #   folderitems:
