@@ -35,7 +35,7 @@ entries:
     output: web
     folderitems:
 
-    - title: Javascript 기초문법
+    - title: Javascript 문법 및 용어 정리
       url: /javascript01.html
       output: web
   
