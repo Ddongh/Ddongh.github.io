@@ -38,6 +38,14 @@ entries:
     - title: Javascript 문법 및 용어 정리
       url: /javascript01.html
       output: web
+
+  - title: Javascript Study
+    output: web
+    folderitems:
+
+    - title: Javascript 문법 및 용어 정리
+      url: /javascript01.html
+      output: web
   
   # - title: Software Engineering
   #   output: web

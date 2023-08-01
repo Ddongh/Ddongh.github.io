@@ -5,6 +5,7 @@ search: include
 permalink: javascript01.html
 sidebar: mydoc_sidebar
 folder: /javascript
+summary: javascript를 공부하면서 접하게 된 문법이나 용어들 중 몰랐던 부분과 명확하게 알지 못했던 부분을 정리했습니다.
 ---
 
 
@@ -250,4 +251,147 @@ const result2 = A ?? B;
 
 console.log(result1); // 0은 falsy한 값이기 때문에 두 번째 피연산자의 계산값인 "박동혁" return
 console.log(result2); // 0은 확정된 피연산자이므로 0 return
+```
+
+#### 객체와 참조
+ - 객체 자료형은 값의 크기가 유동적으로 변하기 때문에 자바스크립트는 참조(Reference)라는 기능을 이용
+ - 참조 : 실제로 값을 저장하는 것이 아니라 값을 저장한 주소만 저장
+
+
+```javsscript
+// 참조에 의한 비교
+let person = {
+    name = "박동혁";
+};
+
+let man = {
+    name = "박동혁";
+}
+
+console.log(person === man); // 두 객체의 참조값이 다르므로 return false (배열이나 함수도 같음)
+}
+```
+
+#### rest매개변수
+ - 나머지 매개변수라고 하며, 스프레드 연산자처럼 기호 '...'으로 표기
+ - 스프레드 연산자(전재연산자)는 배열이나 객체처럼 반복 가능한 값을 개별요소로 분리하지만, rest 매개변수는 반대로 개별 요소를 배열로 묶음
+
+```javascript
+// 스프레드연산자(전개연산자)
+let A = [1, 2, 3];
+let B = [...A, 4, 5];
+
+console.log(B) // return [1, 2, 3, 4, 5];
+
+// rest연산자(나머지 매개변수)
+function func(...rest) {
+    console.log(rest);
+}
+
+func(1, 2, 3, 4) // return [1, 2, 3, 4];
+```
+
+#### 동기와 비동기
+ - 동기(Synchronous) 
+    - 순차적을 코드를 실행하는 것
+    - 앞의 작업을 완료해야 다음 작업을 실행할 수 있음
+ - 비동기(Asynchronous)
+    - 특정 작업을 다른 작업과 관계없이 독립적으로 동작하게 만드는 것
+
+```javascript
+// setTimeout으로 비동기 처리하기
+setTimeout(function () {
+    console.log("1"); // 두 번째로 실행
+}, 3000);
+
+console.log("2");// 첫 번째로 실행
+
+// 콜백 함수로 비동기 처리하기
+function double(n) {
+    return setTimeout(() => {
+        const doubleN = n * 2;
+        return doubleN; 
+    }, 1000)
+}
+
+const res = double(10);
+console.log(res); // return 알수없는 숫자, 
+// 반환값이 setTimeout에서 인수로 전달한 콜백함수가 반환되는 것이 아니라 함수 setTimeout은 타이머의 식별 번호를 반환하기 때문
+
+// 콜백 함수의 인수로 2를 곱한 결과값을 전달하면, 간단하게 비동기 작업의 결괏값을 반환값으로 사용 가능
+function double(n, cb) {
+    setTimeout(() => {
+        const doubleN = num * 2;
+        cb(doubleN); // 콜백 함수의 인수로 결과값 전달
+    }, 1000);
+}
+
+double(10, (res) => {
+    console.log(res); // 두 번째로 실행 return 20;
+});
+
+console.log(1); // 첫 번째로 실행
+```
+
+#### 프로미스 객체를 이용해 비동기 처리하기
+ - 프로미스(Promice)
+     - 비동기 처리를 목적으로 제공되는 자바스크립트 내장 객체
+     - 콜백 함수를 이용한 비동기 처리보다 더 쉽게 비동기 작업 가능
+     - 진행 단계에 따라 3가지 상태로 나누어 관리
+         - 대기(Pending) 상태   : 작업을 아직 완료하지 않음
+         - 성공(Fulfilled) 상태 : 작업을 성공적으로 완료함
+         - 실패(Rejected) 상태  : 작업이 모종의 이유로 실패함
+     - 프로미스 객체르 만들 때 인수로 실행 함수(Executor)를 전달
+         - 실행함수 : 비동기 작업을 수행하는 함수, 객체를 생성함과 동시에 실행, 2개의 매개변수를 제공받음
+         - resolve : 비동기 작업의 상태를 성공으로 바꾸는 함수
+         - reject : 비동기 작업의 상태를 실패로 만드는 함수
+```javascript
+// 프로미스 객체 생성 방법
+const promise = new Promise(실행함수)
+
+// 프로미스 객체를 생성하여 간단한 실행 함수를 인수로 전달
+const promise = new Promise(
+    function (resolve, reject) {
+        setTimeout(() => {
+            console.log("hello");
+        }, 1000);
+    }
+); // 생성과 동시에 실행되며 2개의 매개변수를 제공받음 return hello
+
+// 매개변수로 제공된 resole를 호출하여 작업 상태를 성공 상태로 변경
+const promise = new Promise(
+    function (resolve, reject) {
+        setTimeout(() => {
+            resolve("성공"); // 성공 상태로 변경, "성공"은 비동기 작업의 결괏값
+        }, 1000);
+    }
+);
+
+// 비동기 작업의 결과값을 비동기 작업이 아닌 곳에서 사용하려면 .then을 사용
+const promise = new Promise(
+    function (resolve, reject) {
+        setTimeout(() => {
+            resolve("성공");
+        }, 1000);
+    }
+);
+
+promise.then(function(res) { // then 메서드는 인수로 전달한 콜백 함수의 비동기 작업이 성공했을 때 실행, reject를 호출하면 실행되지 않음
+    console.log(res); // 전달받은 인수는 "성공"
+})
+
+// 비동기 작업이 실패했을 때 실행할 콜백 함수를 설정하며면 .catch를 사용
+const promise = new Promise(
+    function (resolve, reject) {
+        setTimeout(() => {
+            reject("실패");
+        }, 1000);
+    }
+);
+
+promise.catch(function (err) {
+    console.log(err) // return 실패
+})
+
+
 ```
