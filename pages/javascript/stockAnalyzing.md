@@ -1,8 +1,8 @@
 ---
 title: "주식 분석 및 게시판 포트폴리오"
-tags: Test
+tags: javascript
 search: include
-permalink: stockAnalizing.html
+permalink: stockAnalyzing.html
 sidebar: mydoc_sidebar
 folder: /portfolio
 summary: ES6 이상의 자바스크립트, 업무에서 접하지 못하는 리액트, 그리고 백엔드를 공부하고 이전에 학습했던 파이썬을 복습하고자 이 포트폴리오를 제작하게 되었습니다.
@@ -98,7 +98,7 @@ export default StockAnalyzePage
 
 ```javascript
 function AnalyzeForm(props) {
-
+	... 생략 ...
 	useEffect(() => {
 		const localCodeNameList = JSON.parse(localStorage.getItem("codeNameList")); 
 		// 로컬 스토리지에 저장된 주식 코드/이름 리스트 가져오기
@@ -203,7 +203,11 @@ export default AnalyzeForm;
 
 - 종목 선택 SELECT BOX에서는 종목이 너무 많아 스크롤으로 탐색하는 시간을 줄이고자 검색기능을 추가했습니다.
 
+<details>
+<summary>>>> 전체코드 보기/숨기기</summary>
 
+<script src="https://gist.github.com/Ddongh/a362417f903375ee0f50a3a55d221eeb.js"></script>
+</details>
 
 
 
